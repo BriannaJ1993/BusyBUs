@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+        <!--This will display on the tab of a browser -->
+    <title> Busy Bus </title>
+    <meta charset="utf-8"> <!-- This defines your HTML Document's Character set -->
+    <meta name="author" content="Brianna Johnson"> <!-- You are the author of this web site -->
+    <meta name="keywords" content="Bus, transit system, map"> <!-- A few descriptive keywords for search engines like Google to find -->
+    <meta name="description" content="Busy Bus Frontend Challenge"> <!-- This is a short description of your web site -->
+  </head>
+
+  <body>
+      <section class="container">
+
+        <nav>
+          <header>
+            <img src="images/status-bar.png" class="statusbar">
+            <div class="chevron"><img src="images/chevron.png" class="chevron"></div>
+          </header>
+
+        <div class="screentitle"> Washington & State </div>
+        <header>
+
+
+        <center>
+          <form method="get" action="/search_light" id="search_light">
+            <input name="q" type="text" size="50" />
+            </form>
+          </center>
+
+        <img src="images/BusyBusMap.png" class="mapimage">
+        </header>
+        </nav>
+        </div>
+
+        <section class="menu">
+            <div class="routes"></div>
+            <div class="bus-line">Line</div>
+            <div class="destinations">Destination</div>
+            <div class="time">Time</div>
+        </section>
+
+  <section class="busybus-list">
+          <div class="location">
+            <div class="content">
+
+              <ul class="routes">
+                  <li class="line"><span>60</span></li>
+                  <li class="destination">
+                  Randolph/Harbor Dr<br/>
+                  <div class="bound">Eastbound</li>
+                  <li class="times">
+                    Every 20 mins
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>124</span></li>
+                  <li class="destination">
+                    Navy Pier<br/>
+                  <div class="bound">Eastbound
+                  </li>
+                  <li class="times">
+                    Every 10 mins
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>151</span></li>
+                  <li class="destination">
+                    Devon/Clark<br/>
+                    <div class="bound">Northbound
+                  </li>
+                  <li class="times">
+                    Every 16 mins
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>J14</span></li>
+                  <li class="destination">
+                    103rd/Stony Island<br/>
+                    <div class="bound">Southbound
+                  </li>
+                  <li class="times">
+                    Every 15 mins
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>124</span></li>
+                  <li class="destination">
+                    Navy Pier<br/>
+                    <div class="bound">Southbound
+                  </li>
+                  <li class="times">
+                    Every 10 mins
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>6x</span></li>
+                  <li class="destination">
+                    Jackson Park Express<br/>
+                    <div class="bound">Reroute
+                  </li>
+                  <li class="times">
+                  Every 15 minutes
+                  </li>
+              </ul>
+
+
+              <ul class="routes">
+                  <li class="line"><span>4</span></li>
+                  <li class="destination">
+                    Cottage Grove<br/>
+                    <div class="bound">
+                    <div class="outofservice">
+                      Out of service
+                  </li>
+                  <li class="times">
+                    Resumes 12:10am
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>20</span></li>
+                  <li class="destination">
+                    Madison<br/>
+                    <div class="bound">
+                    <div class="outofservice">
+                      Out of service
+                  </li>
+                  <li class="times">
+                    Resumes 12:10am
+                  </li>
+              </ul>
+
+              <ul class="routes">
+                  <li class="line"><span>157</span></li>
+                  <li class="destination">
+                    Streeterville/Taylor<br/>
+                    <div class="bound">
+                    <div class="outofservice">
+                        Out of service
+                  </li>
+                  <li class="times">
+                    Resumes 6:00am
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+    </body>
+  </html>
